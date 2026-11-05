@@ -1,0 +1,78 @@
+.admin-orders-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.admin-orders-container h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+.admin-login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.admin-login-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.admin-login-form button,
+.admin-orders-container button {
+  padding: 10px 16px;
+  background: #111;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-orders-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.admin-orders-container th,
+.admin-orders-container td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-orders-container th {
+  background: #222;
+  color: white;
+}
+
+.admin-orders-container select {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .admin-orders-container {
+    width: 95%;
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  .admin-orders-container table {
+    min-width: 700px;
+  }
+}
