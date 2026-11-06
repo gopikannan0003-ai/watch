@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
 const Watch = require("./models/watch");
-const Order = require("./models/Order");
+const Order = require("./models/order");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
