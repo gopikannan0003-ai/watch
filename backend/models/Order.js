@@ -1,3 +1,4 @@
+
 const mongoose = require("mongoose");
 
 const orderSchema = new mongoose.Schema(
@@ -28,10 +29,10 @@ const orderSchema = new mongoose.Schema(
       required: true,
     },
     status: {
-  type: String,
-  default: "Pending",
+      type: String,
+      default: "Pending",
     },
-  
+  },
   { timestamps: true }
 );
 
